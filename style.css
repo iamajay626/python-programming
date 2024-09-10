@@ -1,0 +1,44 @@
+/* Add CSS styles to style the elements of your Valentine's Day card */
+
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the Valentine's card */
+.valentines {
+    position: relative;
+}
+
+/* Style the envelope */
+.envelope {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #f00;
+    border-radius: 10px;
+}
+
+/* Style the front of the card */
+.front {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    width: 100px;
+    height: 120px;
+    background-color: #f00;
+    border-radius: 5px;
+}
+
+/* Style the text on the card */
+.card .text {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
